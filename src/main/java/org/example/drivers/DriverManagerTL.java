@@ -2,6 +2,7 @@ package org.example.drivers;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.remote.DesiredCapabilities;
 
 import java.util.Objects;
@@ -32,6 +33,8 @@ public class DriverManagerTL {
 
     public static void init(){
         if (Objects.isNull(DriverManagerTL.getDriver())){
+            ChromeOptions options = new ChromeOptions();
+            options.addArguments("--remote-allow-origins=*");
             WebDriver driver = new ChromeDriver();
             setDriver(driver);
         }

@@ -1,0 +1,3 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Sun Feb 25 19:08:54 IST 2024","Sun Feb 25 19:09:06 IST 2024","12077","All Test Suite","SeleniumJAVAFramework","org.example.vwoLogin.LoginTest","org.example.vwoLogin.LoginTest","testLoginPositive","testLoginPositive",""
+"broken","Sun Feb 25 19:06:18 IST 2024","Sun Feb 25 19:06:18 IST 2024","2","All Test Suite","SeleniumJAVAFramework","org.example.vwoLogin.LoginTest","org.example.vwoLogin.LoginTest","setUp","setUp",""
