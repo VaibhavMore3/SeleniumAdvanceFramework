@@ -16,6 +16,7 @@ public class LoginPage_POM extends BasePage {
     By signButton = By.id("js-login-btn");
     By errorMsg = By.id("js-notification-box-msg");
 
+
     public void openURL(String url){
         DriverManagerTL.getDriver().get(url);
     }

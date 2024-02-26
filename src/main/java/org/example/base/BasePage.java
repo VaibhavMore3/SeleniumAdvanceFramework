@@ -29,6 +29,7 @@ public class BasePage {
         return new WebDriverWait(DriverManagerTL.getDriver(), Duration.ofSeconds(20)).until(ExpectedConditions.visibilityOfElementLocated(elementLocation));
     }
 
+
     protected void enterInput(By by, String key){
         DriverManagerTL.getDriver().findElement(by).sendKeys(key);
     }
